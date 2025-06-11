@@ -1,0 +1,13 @@
+{
+    "name": "Vision Dev",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": []
+        }
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
+}
